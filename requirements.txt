@@ -1,0 +1,34 @@
+# LiveKit Real-time Voice Stack
+livekit>=0.18.0
+livekit-agents>=0.12.0
+livekit-plugins-deepgram>=0.8.0
+livekit-plugins-silero>=0.7.0
+livekit-plugins-turn-detector>=0.3.0
+livekit-plugins-openai>=0.10.0
+
+# LLM & Inference
+groq>=0.11.0
+openai>=1.50.0
+
+# Embeddings & Vector Store (Fast & Local)
+fastembed>=0.4.0
+faiss-cpu>=1.8.0
+
+# Document Ingestion
+pypdf>=5.0.0
+python-docx>=1.1.0
+
+# Backend & Web Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.31.0
+python-multipart>=0.0.18
+pydantic>=2.9.0
+python-dotenv>=1.0.1
+aiohttp>=3.10.0
+numpy>=1.26.0,<2.0.0
+
+# TTS Options
+edge-tts>=6.1.12
+
+# Database & Telemetry
+supabase>=2.8.0

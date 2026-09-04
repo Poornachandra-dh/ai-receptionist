@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment secrets
+.env
+.env.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Data artifacts
+data/faiss_index.bin
+data/chunks.json
+data/uploads/
+data/call_logs.jsonl
+data/test_rag/
+data/bench_rag/
+
+# IDE files
+.vscode/
+.idea/
